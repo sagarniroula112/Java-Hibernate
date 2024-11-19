@@ -1,0 +1,37 @@
+# Maven-specific files
+target/                   # Maven build output
+*.log                     # Log files
+*.tmp                     # Temporary files
+*.bak                     # Backup files
+
+# Eclipse-specific files
+.settings/                # Eclipse settings directory
+*.iml                     # IntelliJ IDEA project files
+.project                  # Eclipse project file
+.classpath                # Eclipse classpath file
+
+# IntelliJ IDEA-specific files
+.idea/                    # IntelliJ IDEA project files
+*.iws
+*.ipr
+*.iml
+
+# Hibernate-specific files
+hibernate.cfg.xml         # Hibernate configuration file (can be ignored if not sensitive)
+
+# OS-specific files
+.DS_Store                 # macOS system files
+Thumbs.db                 # Windows system files
+
+# Java-specific files
+*.class                   # Compiled Java class files
+*.jar                     # Java archive files (unless you need to track them)
+*.war                     # Web application archive files
+*.ear                     # Enterprise application archive files
+
+# Maven Wrapper (optional)
+.mvn/wrapper/             # Maven Wrapper directory (only if you don't want to track the wrapper)
+
+# Other temporary files
+*.swp                     # Swap files (created by text editors like vim)
+*.swo                     # Another type of vim swap file
